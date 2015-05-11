@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:paddingLeft="16dp"
+                android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/followerImage"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/followerName"
+        android:layout_width="wrap_content"
+        android:text="add"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:layout_toRightOf="@id/followerImage"/>
+
+    <TextView
+        android:id="@+id/followDate"
+        android:paddingLeft="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/followerName"
+        android:layout_toRightOf="@id/followerImage"
+        android:text="add"/>
+</RelativeLayout>
